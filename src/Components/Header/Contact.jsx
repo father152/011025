@@ -1,19 +1,17 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 import home from "../Home/home.png"
-import "./about.css"
+import "./contact.css"  
 
-export default function About() {
+export default function Contact() {
   return (
-    <div className="about">
-    <h1>About</h1>
+    <div className="contact">
     
     
+    <h1>Contact</h1>
     <div className="back">
           <Link to="/"><img src= {home} alt=""></img></Link>
           
           </div>
-    
     </div>
   )
 }

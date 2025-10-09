@@ -1,17 +1,19 @@
-.about{
-    width: 90%;
+.photo{
+    width: 95%;
     margin: 0 auto;
-   
-    background-color: rgb(224, 208, 238);
+    background-color: rgb(210, 169, 247);
     font-family: "Manrope", sans-serif;
 }
-h1{
-    
+.photo-container{
+   width: 100%;
+   } 
+ h1{
     text-align: center;
     margin: 0;
     padding: 20px 0;
     text-shadow: 10px 10px 7px black;
    }   
+
 .back a {
     display: block;
     width: 40px;

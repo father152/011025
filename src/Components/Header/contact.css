@@ -1,19 +1,18 @@
-.about{
+.contact{
     width: 90%;
     margin: 0 auto;
-   
-    background-color: rgb(224, 208, 238);
-    font-family: "Manrope", sans-serif;
+  font-family: "Manrope", sans-serif;
+    background-color: rgb(210, 169, 247);
+
 }
 h1{
-    
     text-align: center;
     margin: 0;
     padding: 20px 0;
     text-shadow: 10px 10px 7px black;
    }   
-.back a {
-    display: block;
+.back img{
+    display: flex;
     width: 40px;
     padding: 0 0 20px 20px;
 }
