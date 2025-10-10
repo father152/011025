@@ -1,11 +1,10 @@
-import React from 'react'
 import "./header.css"
 import { Link } from "react-router-dom";
 import logo from "./pexels-steve-1981468.jpg"
-
-
+import Clock from "../Clock";
 
 export default function Header() {
+  
   return (
    <div className="header">
       <div className="header-container">
@@ -28,7 +27,12 @@ export default function Header() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
+<div className='date'>
+          
+      <Clock />
+      
+    </div>
       </div>
     </div>
   )
-};
+}
