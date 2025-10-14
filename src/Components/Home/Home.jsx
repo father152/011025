@@ -1,7 +1,9 @@
 import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
-
+import foto1 from "../../Components/Image/06-21-04-25-risunkov-s-nestandartnymi-o_szmrl.jpg"
+import foto2 from "../../Components/Image/06-21-57-25-risunkov-s-nestandartnymi-o_wojqn.jpg"
+import foto3 from "../../Components/Image/06-22-15-25-risunkov-s-nestandartnymi-o_teype.jpg"
 
 
 export default function Home() {
@@ -30,8 +32,26 @@ export default function Home() {
               </ul>
       
             </div>
+            <hr></hr>
+<div className="left-1">
+<h5>TITLE</h5>
+<img src={foto1} alt="" />
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+</div>   <hr></hr>
+<div className="left-1">
+<h5>TITLE</h5>
+<img src={foto2} alt="" />
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+</div>     <hr></hr>
+<div className="left-1">
+<h5>TITLE</h5>
+<img src={foto3} alt="" />
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+</div>  <hr></hr>
       </div>
-      <div className="centre-side"></div>
+      <div className="centre-side">
+      <h4>Main part</h4>
+      </div>
       
  
       

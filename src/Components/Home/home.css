@@ -3,21 +3,24 @@
  width: 100%;
  font-family: "Manrope", sans-serif;
 }
+.home h1 {
+    background-color: #E27D60;
+    font-size: 40px;
+}
 .home-container{
  display: flex;
  width: 100%;
- height: 100vh;
+ 
  background-color: #812121;
 text-align: center;
 }
 .left-side{
   width: 20%;
-  height: 100vh;
   background-color: #E27D60;
 }
 .centre-side{
   width: 80%;
-  height: 100vh;
+  
   background-color:  #812121;
 }
 /* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++++++++++++++++++ */
@@ -47,4 +50,28 @@ h4{
 .left-title li a:hover{
     color: black;
     transition: 0.3s;
+}
+.left-1 img{
+    width: 95%;
+    padding: 5px; 
+}
+h5{
+    font-size: 30px;
+    margin: 10px;
+}
+.left-1 p{
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+    font-weight: 500;
+}
+/* ++++++++++++++++++++++++++++++++++++CENTRAL PART +++++++++++++++++++++++++ */
+.centre-side h4{
+    color: white;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+     padding-top: 20px;
+    font-weight: 100;
+    
+   
 }
