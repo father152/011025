@@ -65,6 +65,30 @@ h5{
     text-align: justify;
     font-weight: 500;
 }
+.submenu{
+   position: absolute;
+   left: 200px;
+   top: 230px;
+   background-color: rgb(146, 81, 81);
+    
+}
+.submenu{
+    display: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+.submenu ul{
+list-style: none;
+text-align: left;
+padding: 0 20px;
+
+}
+
+.dropdown:hover > .submenu{
+    display: block;
+}
 /* ++++++++++++++++++++++++++++++++++++CENTRAL PART +++++++++++++++++++++++++ */
 .centre-side h4{
     color: white;

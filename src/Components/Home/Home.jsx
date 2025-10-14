@@ -17,8 +17,19 @@ export default function Home() {
       <div className="left-container">
               
               <ul className="left-title">
-                <li>
-                  <Link to="/region">Region building</Link>
+                <li className="dropdown">
+                
+                <a href="#">Region building</a>
+                <div className="submenu">
+                <ul>
+               <li><Link to="/1">Poltava</Link></li>
+               <li><Link to="/2">Rharkiv</Link></li>
+               <li><Link to="/3">Sumu</Link></li>
+               <li><Link to="/4">Kyiv</Link></li>
+                 </ul>
+
+                </div>
+                 
                 </li>
                 <li>
                   <Link to="/house">House</Link>

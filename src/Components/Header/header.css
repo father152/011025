@@ -13,13 +13,13 @@
     justify-content: space-between;
 }
 .logo{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .logo img{
     height: 80px;
     width: 80px;
     cursor: pointer;
-    border-radius: 70%;
+    border-radius: 50%;
 
 }
 .header-title {
