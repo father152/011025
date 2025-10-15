@@ -65,6 +65,7 @@ h5{
     text-align: justify;
     font-weight: 500;
 }
+/* ++++++++++++++++++++++++++++++++++DROPDOWN MENU ++++++++++++++++++++   */
 .submenu{
    position: absolute;
    left: 200px;
@@ -85,8 +86,30 @@ text-align: left;
 padding: 0 20px;
 
 }
+ .submenu2{
+   position: absolute;
+   left: 200px;
+   top: 260px;
+   background-color: rgb(146, 81, 81);
+    
+}
+.submenu2{
+    display: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+.submenu2 ul{
+list-style: none;
+text-align: left;
+padding: 0 20px;
 
+}
 .dropdown:hover > .submenu{
+    display: block;
+}
+.dropdown2:hover > .submenu2{
     display: block;
 }
 /* ++++++++++++++++++++++++++++++++++++CENTRAL PART +++++++++++++++++++++++++ */

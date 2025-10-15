@@ -27,13 +27,23 @@ export default function Home() {
                <li><Link to="/3">Sumu</Link></li>
                <li><Link to="/4">Kyiv</Link></li>
                  </ul>
-
                 </div>
                  
                 </li>
-                <li>
-                  <Link to="/house">House</Link>
+                <li className="dropdown2">
+                
+                <a href="#">House</a>
+                <div className="submenu2">
+                <ul>
+               <li><Link to="/five">Five floor</Link></li>
+               <li><Link to="/six">Six floor</Link></li>
+               <li><Link to="/nine">Nine floor</Link></li>
+               <li><Link to="/ten">Ten floor</Link></li>
+                 </ul>
+                </div>
+                 
                 </li>
+                
                 <li>
                   <Link to="/floor">Floor </Link>
                 </li>
