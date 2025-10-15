@@ -1,124 +1,118 @@
-.home{
- margin: 0 auto;
- width: 100%;
- font-family: "Manrope", sans-serif;
+.home {
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Manrope", sans-serif;
 }
 .home h1 {
-    background-color: #E27D60;
+    background-color: #e27d60;
     font-size: 40px;
 }
-.home-container{
- display: flex;
- width: 100%;
- 
- background-color: #812121;
-text-align: center;
+.home-container {
+    display: flex;
+    width: 100%;
+
+    background-color: #812121;
+    text-align: center;
 }
-.left-side{
-  width: 20%;
-  background-color: #E27D60;
+.left-side {
+    width: 20%;
+    background-color: #e27d60;
 }
-.centre-side{
-  width: 80%;
-  
-  background-color:  #812121;
+.centre-side {
+    width: 80%;
+
+    background-color: #812121;
 }
-/* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++++++++++++++++++ */
-h4{
+/* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++ */
+h4 {
     color: rgb(112, 32, 32);
     padding-top: 20px;
     font-size: 30px;
     font-weight: 600;
 }
-.left-title{
+.left-title {
     list-style: none;
     padding: 0;
     margin: 0;
     margin-top: 30px;
 }
-.left-title li{
+.left-title li {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     color: white;
 }
-.left-title li a{
+.left-title li a {
     text-decoration: none;
     color: white;
 }
-.left-title li a:hover{
+.left-title li a:hover {
     color: black;
     transition: 0.3s;
 }
-.left-1 img{
+.left-1 img {
     width: 95%;
-    padding: 5px; 
+    padding: 5px;
 }
-h5{
+h5 {
     font-size: 30px;
     margin: 10px;
 }
-.left-1 p{
+.left-1 p {
     font-size: 16px;
     margin: 10px;
     text-align: justify;
     font-weight: 500;
 }
-/* ++++++++++++++++++++++++++++++++++DROPDOWN MENU ++++++++++++++++++++   */
-.submenu{
-   position: absolute;
-   left: 200px;
-   top: 230px;
-   background-color: rgb(146, 81, 81);
-    
+/* ++++++++++++++++++++++DROPDOWN MENU ++++++++++++++++++++   */
+.submenu {
+    position: absolute;
+    left: 200px;
+    top: 230px;
+    background-color: rgb(146, 81, 81);
 }
-.submenu{
+.submenu {
     display: none;
     border-radius: 20px;
     padding: 10px;
     margin: 0;
     text-align: left;
 }
-.submenu ul{
-list-style: none;
-text-align: left;
-padding: 0 20px;
-
+.submenu ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 20px;
 }
- .submenu2{
-   position: absolute;
-   left: 200px;
-   top: 260px;
-   background-color: rgb(146, 81, 81);
-    
+.submenu2 {
+    position: absolute;
+    left: 200px;
+    top: 260px;
+    background-color: rgb(146, 81, 81);
 }
-.submenu2{
+.submenu2 {
     display: none;
     border-radius: 20px;
     padding: 10px;
     margin: 0;
     text-align: left;
 }
-.submenu2 ul{
-list-style: none;
-text-align: left;
-padding: 0 20px;
-
+.submenu2 ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 20px;
 }
-.dropdown:hover > .submenu{
+.dropdown:hover > .submenu {
     display: block;
 }
-.dropdown2:hover > .submenu2{
+.dropdown2:hover > .submenu2 {
     display: block;
 }
-/* ++++++++++++++++++++++++++++++++++++CENTRAL PART +++++++++++++++++++++++++ */
-.centre-side h4{
+/* +++++++++++++++++++++++++CENTRAL PART ++++++++++++++++++ */
+.centre-side h4 {
     color: white;
     font-size: 40px;
     font-family: "Manrope", sans-serif;
-     padding-top: 20px;
+    padding-top: 20px;
     font-weight: 100;
-    
-   
 }
