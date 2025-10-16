@@ -1,11 +1,13 @@
 .home {
     margin: 0 auto;
     width: 100%;
-    font-family: "Manrope", sans-serif;
+    font-family: Shadows Into Light;
 }
 .home h1 {
     background-color: #e27d60;
-    font-size: 40px;
+    font-size: 100px;
+    font-family: Shadows Into Light;
+    color: white;
 }
 .home-container {
     display: flex;
@@ -24,11 +26,12 @@
     background-color: #812121;
 }
 /* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++ */
-h4 {
+.home h4 {
     color: rgb(112, 32, 32);
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
+    font-family: Shadows Into Light;
 }
 .left-title {
     list-style: none;
@@ -37,8 +40,8 @@ h4 {
     margin-top: 30px;
 }
 .left-title li {
-    margin-bottom: 10px;
-    font-size: 18px;
+    
+    font-size: 28px;
     font-weight: 500;
     text-decoration: none;
     color: white;
@@ -56,23 +59,23 @@ h4 {
     padding: 5px;
 }
 h5 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
 }
 .left-1 p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px;
     text-align: justify;
     font-weight: 500;
+    font-family: Shadows Into Light;
+    line-height: 25px;
 }
 /* ++++++++++++++++++++++DROPDOWN MENU ++++++++++++++++++++   */
 .submenu {
     position: absolute;
     left: 200px;
-    top: 230px;
+    top: 300px;
     background-color: rgb(146, 81, 81);
-}
-.submenu {
     display: none;
     border-radius: 20px;
     padding: 10px;
@@ -87,10 +90,8 @@ h5 {
 .submenu2 {
     position: absolute;
     left: 200px;
-    top: 260px;
+    top: 330px;
     background-color: rgb(146, 81, 81);
-}
-.submenu2 {
     display: none;
     border-radius: 20px;
     padding: 10px;

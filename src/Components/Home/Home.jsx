@@ -23,7 +23,7 @@ export default function Home() {
                 <div className="submenu">
                 <ul>
                <li><Link to="/1">Poltava</Link></li>
-               <li><Link to="/2">Rharkiv</Link></li>
+               <li><Link to="/2">Kharkiv</Link></li>
                <li><Link to="/3">Sumu</Link></li>
                <li><Link to="/4">Kyiv</Link></li>
                  </ul>
