@@ -73,8 +73,8 @@ h5 {
 /* ++++++++++++++++++++++DROPDOWN MENU ++++++++++++++++++++   */
 .submenu {
     position: absolute;
-    left: 200px;
-    top: 300px;
+    left: 210px;
+    top: 340px;
     background-color: rgb(146, 81, 81);
     display: none;
     border-radius: 20px;
@@ -89,8 +89,8 @@ h5 {
 }
 .submenu2 {
     position: absolute;
-    left: 200px;
-    top: 330px;
+    left: 210px;
+    top: 380px;
     background-color: rgb(146, 81, 81);
     display: none;
     border-radius: 20px;
@@ -110,10 +110,33 @@ h5 {
     display: block;
 }
 /* +++++++++++++++++++++++++CENTRAL PART ++++++++++++++++++ */
+.centre-side{
+    display: flex;
+}
 .centre-side h4 {
     color: white;
     font-size: 40px;
-    font-family: "Manrope", sans-serif;
+    font-family: Shadows Into Light;
     padding-top: 20px;
+    font-weight: 200;
+}
+.centre-side p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 25px;
+    line-height: 30px;
+    font-family: Shadows Into Light;
+    margin: 0;
     font-weight: 100;
+}
+.girl img{
+    width: 1180%;
+ 
+   
+    
+}
+.text hr{
+    border: 1px solid white;
+    margin: 20px 50px 0px 50px;
 }

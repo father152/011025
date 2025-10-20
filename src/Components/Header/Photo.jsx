@@ -1,16 +1,31 @@
 import { Link } from "react-router-dom";
 import home from "../Home/home.png";
 import "./photo.css";
-
+import Fotocard from "./Fotocard";
+import Datafoto from "./Datafoto";
 
 export default function Photo() {
+
+const Fotocards = () => {
+
+    return Datafoto.map(({ id, name, year, image }) => (
+      <Fotocard
+        key={id}
+        id={id}
+        name={name}
+        year={year}
+        image={image}
+      />
+    ));
+  }
+
   return (
     <div className="photo">
-      
-<div className="photo-container">
-<h1>Photo</h1>
-<p>hjklhjlk,hjlk,hjlk,hjkl,hjlk,hjlk,hjlk,</p>
-</div>
+     <h1>Photo</h1>
+     
+     <div className="photo-container">
+       <Fotocards />
+      </div>
 
 
 
