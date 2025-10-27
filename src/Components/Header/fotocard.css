@@ -22,14 +22,17 @@
    
 }
 .fotocard .id{
-    font-size:15px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #726e6e;
+    border-radius: 50%;
+    font-size: 15px;
     font-weight: bold;
-    color: #0f0f0f;
+    color: #f7f4f4;
     margin: 0;
-    text-align: left;
-     
-  
-    
+     justify-content: center;
+    align-items: center;
 }
 
 .fotocard .name{
