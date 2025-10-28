@@ -7,6 +7,9 @@ import Photo from "./Components/Header/Photo";
 import Contact from "./Components/Header/Contact";
 import Poltava from "./Components/Home/Poltava";
 import Kharkiv from "./Components/Home/Kharkiv";
+import Sumu from "./Components/Home/Sumu";
+import Kyiv from "./Components/Home/Kyiv";
+
 
 
 function App() {
@@ -42,6 +45,14 @@ function App() {
         {
           path: "/kharkiv",
           element: <Kharkiv />,
+        },
+        {
+          path: "/sumu",
+          element: <Sumu />,
+        },
+        {
+          path: "/kyiv",
+          element: <Kyiv />,
         },
       ],
     },
