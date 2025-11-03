@@ -9,7 +9,7 @@ import Poltava from "./Components/Home/Poltava";
 import Kharkiv from "./Components/Home/Kharkiv";
 import Sumu from "./Components/Home/Sumu";
 import Kyiv from "./Components/Home/Kyiv";
-
+import Fivefloor from "./Components/Home/Fivefloor";
 
 
 function App() {
@@ -53,6 +53,10 @@ function App() {
         {
           path: "/kyiv",
           element: <Kyiv />,
+        },
+        {
+          path: "/fivefloor",
+          element: <Fivefloor />,
         },
       ],
     },

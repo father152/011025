@@ -2,15 +2,43 @@ import React from "react";
 import { Link } from "react-router-dom";
 import home from "../Home/home.png";
 import "./kharkiv.css";
+import { useState } from "react";
 
 export default function Kharkiv() {
+  function ImageChanger() {
+    const images = [
+      "https://picsum.photos/id/1015/600/400",
+      "https://picsum.photos/id/1025/600/400",
+      "https://picsum.photos/id/1035/600/400",
+      "https://picsum.photos/id/1016/600/400",
+      "https://picsum.photos/id/1026/600/400",
+      "https://picsum.photos/id/1036/600/400",
+    ];
+
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const changeImage = () => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    };
+
+    return (
+      <div className="first" id="first">
+        <img src={images[currentImageIndex]} alt="Kharkiv" />
+        <button className="morephotos" onClick={changeImage}>
+          More Photos
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div className="kharkiv">
       <h1>Kharkiv</h1>
       <div className="kharkiv-container">
         <h2>Welcome to Kharkiv!</h2>
+
         <div className="first">
-          <img src="https://picsum.photos/id/165/600/400" alt="Kharkiv" />
+          <ImageChanger />
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
             faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
@@ -28,8 +56,8 @@ export default function Kharkiv() {
             inceptos himenaeos.
           </p>
         </div>
+
         <div className="second">
-         
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
             faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
@@ -46,7 +74,7 @@ export default function Kharkiv() {
             class aptent taciti sociosqu. Ad litora torquent per conubia nostra
             inceptos himenaeos.
           </p>
-           <img src="https://picsum.photos/id/167/600/400" alt="Kharkiv" />
+          <img src="https://picsum.photos/id/165/600/400" alt="Kharkiv" />
         </div>
         <div className="third">
           <img src="https://picsum.photos/id/166/600/400" alt="Kharkiv" />
@@ -68,8 +96,6 @@ export default function Kharkiv() {
           </p>
         </div>
       </div>
-
-
 
       <div className="back">
         <Link to="/">
