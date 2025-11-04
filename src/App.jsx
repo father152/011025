@@ -10,7 +10,7 @@ import Kharkiv from "./Components/Home/Kharkiv";
 import Sumu from "./Components/Home/Sumu";
 import Kyiv from "./Components/Home/Kyiv";
 import Fivefloor from "./Components/Home/Fivefloor";
-
+import Sixfloor from "./Components/Home/Sixfloor";
 
 function App() {
    const router = createBrowserRouter([
@@ -55,8 +55,12 @@ function App() {
           element: <Kyiv />,
         },
         {
-          path: "/fivefloor",
+          path: "/five",
           element: <Fivefloor />,
+        },
+        {
+          path: "/six",
+          element: <Sixfloor />,
         },
       ],
     },

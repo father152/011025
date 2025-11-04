@@ -23,13 +23,13 @@ h1{
     margin-bottom: 20px;
 }
    .contact-container img{
-    width: 100px;
+    width: 15%;
     padding: 0 20px 0 0;
    }
 .contact-container p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
-    padding: 0 20px 0 0;
+   
 }
 
 .back img{

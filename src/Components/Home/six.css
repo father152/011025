@@ -1,0 +1,15 @@
+.sixfloor {
+    background-color: rgb(146, 175, 109);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Shadows Into Light;
+    color: rgb(119, 216, 140);
+    padding: 0;
+}
