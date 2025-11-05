@@ -1,6 +1,6 @@
 .header {
      margin: 0 auto;
-    background-color: rgb(194, 191, 191);
+    background-color: rgb(215, 228, 184);
     display: flex;
 }
 .header-container{
@@ -33,15 +33,21 @@
     font-size: 20px;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: rgb(28, 53, 5);
 }
 .header-title li a:hover{
-    color: rgb(114, 47, 238);
+    color: rgb(34, 73, 15);
     text-decoration: underline;
 }
+
 .date{
     
    font-weight: bold;
     font-size: 15px;
-    width: 15%;
+    width: 7.5%;
+    height: 95px;
+    color: rgb(34, 73, 15);
+    border: 1px solid rgb(34, 73, 15);
+    margin-right: 40px;
+    border-radius: 50%;
 }

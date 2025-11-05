@@ -11,6 +11,8 @@ import Sumu from "./Components/Home/Sumu";
 import Kyiv from "./Components/Home/Kyiv";
 import Fivefloor from "./Components/Home/Fivefloor";
 import Sixfloor from "./Components/Home/Sixfloor";
+import Ninefloor from "./Components/Home/Ninefloor";
+
 
 function App() {
    const router = createBrowserRouter([
@@ -61,6 +63,10 @@ function App() {
         {
           path: "/six",
           element: <Sixfloor />,
+        },
+        {
+          path: "/nine",
+          element: <Ninefloor />,
         },
       ],
     },
