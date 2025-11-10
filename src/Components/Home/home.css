@@ -2,32 +2,35 @@
     margin: 0 auto;
     width: 100%;
     font-family: Shadows Into Light;
+    background-image: url('./12_.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .home h1 {
-    background-color: #e27d60;
+    
     font-size: 100px;
     font-family: Shadows Into Light;
-    color: white;
+    color: rgb(213, 216, 12);
 }
 .home-container {
     display: flex;
     width: 100%;
 
-    background-color: #812121;
+    
     text-align: center;
 }
 .left-side {
     width: 20%;
-    background-color: #e27d60;
+    
 }
 .centre-side {
     width: 80%;
 
-    background-color: #812121;
+   
 }
 /* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++ */
 .home h4 {
-    color: rgb(112, 32, 32);
+    color: rgb(184, 243, 23);
     padding-top: 20px;
     font-size: 40px;
     font-weight: 600;
@@ -44,11 +47,11 @@
     font-size: 28px;
     font-weight: 500;
     text-decoration: none;
-    color: white;
+    color: rgb(150, 27, 27);
 }
 .left-title li a {
     text-decoration: none;
-    color: white;
+    color: rgb(224, 47, 47);
 }
 .left-title li a:hover {
     color: black;
@@ -75,7 +78,7 @@ h5 {
     position: absolute;
     left: 210px;
     top: 340px;
-    background-color: rgb(146, 81, 81);
+   
     display: none;
     border-radius: 20px;
     padding: 10px;
@@ -91,7 +94,7 @@ h5 {
     position: absolute;
     left: 210px;
     top: 380px;
-    background-color: rgb(146, 81, 81);
+    
     display: none;
     border-radius: 20px;
     padding: 10px;
@@ -105,23 +108,25 @@ h5 {
 }
 .dropdown:hover > .submenu {
     display: block;
+    background-color: rgb(196, 188, 87);
 }
 .dropdown2:hover > .submenu2 {
     display: block;
+    background-color: rgb(196, 188, 87);
 }
 /* +++++++++++++++++++++++++CENTRAL PART ++++++++++++++++++ */
 .centre-side{
     display: flex;
 }
 .centre-side h4 {
-    color: white;
+    color: rgb(20, 20, 20);
     font-size: 40px;
     font-family: Shadows Into Light;
     padding-top: 20px;
     font-weight: 200;
 }
 .centre-side p{
-    color: white;
+    color: rgb(241, 218, 7);
     font-size: 20px;
     text-align: justify;
     padding: 0 25px;
