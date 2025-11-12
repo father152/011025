@@ -6,6 +6,7 @@
     font-family: Shadows Into Light;
     background-image: url(https://picsum.photos/id/165/600/400);
     background-size: cover;
+    background-attachment: fixed;
 }
 .kharkiv h1 {
     font-size: 80px;

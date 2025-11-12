@@ -1,14 +1,14 @@
-import React from 'react'
+import "./aboutcard.css"
 
 export default function Aboutcard(props) {
   return (
 
 
         <div className='about-card'>
-          name: {props.name} <br/>
-          age: {props.age} <br/>
-          city: {props.city} <br/>
-          profession: {props.profession} <br/>
+          <div className="name">name:<p id="name">{props.name}</p></div> <br/>
+          <div className="age">age: <p id="age">{props.age}</p></div> <br/>
+          <div className="city">city: <p id="city">{props.city}</p></div> <br/>
+          <div className="profession">profession: <p id="profession">{props.profession}</p></div> <br/>
           </div>
   )
 }

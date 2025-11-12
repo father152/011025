@@ -5,6 +5,8 @@
     background-image: url('./12_.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
+    
+    background-size: cover;
 }
 .home h1 {
     
