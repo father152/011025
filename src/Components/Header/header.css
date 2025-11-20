@@ -1,7 +1,8 @@
 .header {
      margin: 0 auto;
-    background-color: rgb(215, 228, 184);
+    background-color: rgb(235, 236, 181);
     display: flex;
+     font-family: "Shadows Into Light", cursive;
 }
 .header-container{
     display: flex;
@@ -29,14 +30,15 @@
     list-style: none;
 }
 .header-title li a{
-    padding-left: 80px;
-    font-size: 20px;
+    padding-left: 90px;
+    font-size: 30px;
     cursor: pointer;
     text-decoration: none;
     color: rgb(28, 53, 5);
+     font-family: Shadows Into Light;
 }
 .header-title li a:hover{
-    color: rgb(34, 73, 15);
+    color: rgb(209, 183, 36);
     text-decoration: underline;
 }
 
@@ -46,8 +48,9 @@
     font-size: 15px;
     width: 7.5%;
     height: 95px;
-    color: rgb(34, 73, 15);
+    color: rgb(28, 53, 5);
     border: 1px solid rgb(34, 73, 15);
     margin-right: 40px;
     border-radius: 50%;
+     
 }

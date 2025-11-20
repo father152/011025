@@ -2,14 +2,13 @@
     margin: 0 auto;
     width: 100%;
     font-family: Shadows Into Light;
-    background-image: url('./12_.jpg');
+    background-image: url("./12_.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
+
     background-size: cover;
 }
 .home h1 {
-    
     font-size: 100px;
     font-family: Shadows Into Light;
     color: rgb(213, 216, 12);
@@ -17,18 +16,14 @@
 .home-container {
     display: flex;
     width: 100%;
-
-    
     text-align: center;
+    
 }
 .left-side {
     width: 20%;
-    
 }
 .centre-side {
     width: 80%;
-
-   
 }
 /* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++ */
 .home h4 {
@@ -45,19 +40,19 @@
     margin-top: 30px;
 }
 .left-title li {
-    
     font-size: 28px;
     font-weight: 500;
     text-decoration: none;
-    color: rgb(150, 27, 27);
+   
 }
 .left-title li a {
     text-decoration: none;
-    color: rgb(224, 47, 47);
+    color: rgb(248, 245, 245);
 }
 .left-title li a:hover {
     color: black;
     transition: 0.3s;
+    text-decoration: underline;
 }
 .left-1 img {
     width: 95%;
@@ -80,7 +75,7 @@ h5 {
     position: absolute;
     left: 210px;
     top: 340px;
-   
+
     display: none;
     border-radius: 20px;
     padding: 10px;
@@ -96,7 +91,7 @@ h5 {
     position: absolute;
     left: 210px;
     top: 380px;
-    
+
     display: none;
     border-radius: 20px;
     padding: 10px;
@@ -117,7 +112,7 @@ h5 {
     background-color: rgb(196, 188, 87);
 }
 /* +++++++++++++++++++++++++CENTRAL PART ++++++++++++++++++ */
-.centre-side{
+.centre-side {
     display: flex;
 }
 .centre-side h4 {
@@ -127,7 +122,7 @@ h5 {
     padding-top: 20px;
     font-weight: 200;
 }
-.centre-side p{
+.centre-side p {
     color: rgb(241, 218, 7);
     font-size: 20px;
     text-align: justify;
@@ -137,13 +132,10 @@ h5 {
     margin: 0;
     font-weight: 100;
 }
-.girl img{
+.girl img {
     width: 1180%;
- 
-   
-    
 }
-.text hr{
+.text hr {
     border: 1px solid white;
     margin: 20px 50px 0px 50px;
 }

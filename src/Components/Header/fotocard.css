@@ -3,16 +3,16 @@
     width: 25%;
     flex-direction: column;
     justify-content: center;
-    
-    background-color: #d6d4d4;
-    border-radius: 8px;
+    border: 4mm ridge rgba(151, 133, 32, 0.7);
+    background-color: #b9be73;
+    border-radius: 20px;
     box-shadow: 10px 10px 5px rgb(185, 184, 184);
     padding: 20px;
     font-size: 15px;
     margin: 10px;
 }
 .fotocard:hover{
-    background-color: #b3b0b0;
+    background-color: #a09150;
     transition: all 0.3s ease;
   
 }
