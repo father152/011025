@@ -1,17 +1,46 @@
 .about{
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(224, 208, 238);
+    background-image: url(../Image/nature-volna-more-voda-prozrachnaya-153251.jpeg);
     font-family: "Manrope", sans-serif;
+    background-size: cover;
+   
 }
 h1{
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    text-shadow: 10px 10px 7px black;
+    text-shadow: 10px 10px 7px rgb(185, 221, 23);
 }   
 .back a {
     display: block;
     width: 40px;
     padding: 0 0 20px 20px;
 }
+.first{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.first1{
+    width: 40%;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(35, 104, 14);
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-family: Shadows Into Light;
+}
+.first2{
+    width: 40%;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(39, 92, 15);
+    background-color: rgb(36, 190, 139);
+     border-radius: 20px;
+}
+.first1 p, .first2 p{
+  font-family: Shadows Into Light;
+} 

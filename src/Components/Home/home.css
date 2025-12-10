@@ -27,7 +27,7 @@
 }
 /* +++++++++++++++++++++++++++++++++LEFT-SIDE+++++++++++++++++ */
 .home h4 {
-    color: rgb(184, 243, 23);
+    color: rgb(216, 245, 138);
     padding-top: 20px;
     font-size: 40px;
     font-weight: 600;
@@ -50,7 +50,7 @@
     color: rgb(248, 245, 245);
 }
 .left-title li a:hover {
-    color: black;
+    color: rgb(103, 172, 228);
     transition: 0.3s;
     text-decoration: underline;
 }
@@ -116,7 +116,7 @@ h5 {
     display: flex;
 }
 .centre-side h4 {
-    color: rgb(20, 20, 20);
+    color: rgb(189, 10, 10);
     font-size: 40px;
     font-family: Shadows Into Light;
     padding-top: 20px;
