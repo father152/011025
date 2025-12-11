@@ -44,3 +44,8 @@ h1{
 .first1 p, .first2 p{
   font-family: Shadows Into Light;
 } 
+.first1 b, .first2 b{
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}

@@ -61,6 +61,7 @@
 h5 {
     font-size: 40px;
     margin: 10px;
+    color: rgb(8, 81, 177);
 }
 .left-1 p {
     font-size: 20px;
@@ -69,6 +70,7 @@ h5 {
     font-weight: 500;
     font-family: Shadows Into Light;
     line-height: 25px;
+    color: rgb(248, 244, 2);
 }
 /* ++++++++++++++++++++++DROPDOWN MENU ++++++++++++++++++++   */
 .submenu {
@@ -116,11 +118,12 @@ h5 {
     display: flex;
 }
 .centre-side h4 {
-    color: rgb(189, 10, 10);
+    color: rgb(252, 248, 5);
     font-size: 40px;
+    font-weight: 700;
     font-family: Shadows Into Light;
     padding-top: 20px;
-    font-weight: 200;
+    
 }
 .centre-side p {
     color: rgb(241, 218, 7);
