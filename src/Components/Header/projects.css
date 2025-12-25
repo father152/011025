@@ -1,7 +1,8 @@
 .projects {
     width: 100%;
+    height: 100%;
     margin: 0 auto;
-    background-color: black;
+   background-color: rgb(235, 240, 240);
     font-family: "Manrope", sans-serif;
     color: rgb(60, 70, 57);
 }
@@ -13,12 +14,11 @@ h1 {
 }
 .projects-container {
     width: 95%;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    gap: 30px;
-    padding-bottom: 30px;
+    
 }
 .left {
     width: 50%;
@@ -85,4 +85,7 @@ h1 {
     padding-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.girl img{
+    width: 100%;
 }
