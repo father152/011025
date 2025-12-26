@@ -1,10 +1,11 @@
 .projects {
     width: 100%;
-    height: 100%;
+   min-height: 100vh;
     margin: 0 auto;
-   background-color: rgb(235, 240, 240);
+    background-color: rgb(235, 240, 240);
     font-family: "Manrope", sans-serif;
     color: rgb(60, 70, 57);
+    
 }
 h1 {
     text-align: center;
@@ -13,80 +14,35 @@ h1 {
     text-shadow: 10px 10px 7px black;
 }
 .projects-container {
-    width: 95%;
-    
+    width: 100%;
+min-height: 100vh;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    
+    position: relative;
 }
-.left {
-    width: 50%;
-    height: 100%;
-    background-image: url("../Home/7858d44b402eff7aad9e5c34f8e77605.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+.girl img{
+    width: 37%;
+   
+    position: absolute;
+    top: -130px;
+  
 }
-.left img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.right {
-    width: 50%;
-    height: 100%;
-    background-image: url("../Home/3ab47e52b3227146278bb5de10da1eff.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.left h2,
-.right h2, .centre h2 {
-    text-align: center;
-    padding: 10px 0;
-    margin: 0;
-    text-shadow: 5px 5px 5px rgb(215, 230, 15);
-    font-size: 50px;
+.girl p{
+    position: absolute;
+   min-height: 100vh;
+    left: 30%;
     font-family: Shadows Into Light;
-    color: rgb(255, 255, 255);
-}
-.left p,
-.right p, .centre p {
-    padding: 0 15px;
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: center;
-    text-align: justify;
-    color: rgb(128, 123, 57);
+    font-size: 30px;
+    color: rgb(206, 116, 33);
+    font-weight: bold;
+
 }
 .back img {
     display: flex;
     width: 40px;
     padding: 0 0 20px 20px;
-}
-.centre{
-    width: 95%;
-    height: 100%;
-    background-image: url("../Home/b82e171512b51e24a23bb9d0cebfe8ca.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    gap: 30px;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.girl img{
-    width: 100%;
-    opacity: 0.4;
+    cursor: pointer;
+    z-index: 1000;
 }
