@@ -1,11 +1,10 @@
 .projects {
     width: 100%;
-   min-height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: rgb(235, 240, 240);
     font-family: "Manrope", sans-serif;
     color: rgb(60, 70, 57);
-    
 }
 h1 {
     text-align: center;
@@ -15,29 +14,26 @@ h1 {
 }
 .projects-container {
     width: 100%;
-min-height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     position: relative;
 }
 
-.girl img{
+.girl img {
     width: 37%;
-   
     position: absolute;
     top: -130px;
-  
 }
-.girl p{
+.girl p {
     position: absolute;
-   min-height: 100vh;
+    min-height: 100vh;
     left: 30%;
     font-family: Shadows Into Light;
     font-size: 30px;
     color: rgb(206, 116, 33);
     font-weight: bold;
-
 }
 .back img {
     display: flex;
