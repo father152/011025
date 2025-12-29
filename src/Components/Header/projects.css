@@ -1,10 +1,11 @@
 .projects {
     width: 100%;
-    min-height: 100vh;
+    display: flex;
     margin: 0 auto;
     background-color: rgb(235, 240, 240);
     font-family: "Manrope", sans-serif;
     color: rgb(60, 70, 57);
+   
 }
 h1 {
     text-align: center;
@@ -13,18 +14,18 @@ h1 {
     text-shadow: 10px 10px 7px black;
 }
 .projects-container {
-    width: 100%;
-    min-height: 100vh;
+    width: 95%;
+    
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    position: relative;
+
 }
 
-.girl img {
-    width: 37%;
+/* .girl img {
+    width: 45%;
     position: absolute;
-    top: -130px;
+    top: 20px;
 }
 .girl p {
     position: absolute;
@@ -36,9 +37,9 @@ h1 {
     font-weight: bold;
 }
 .back img {
-    display: flex;
+   display: flex;
     width: 40px;
     padding: 0 0 20px 20px;
     cursor: pointer;
     z-index: 1000;
-}
+} */

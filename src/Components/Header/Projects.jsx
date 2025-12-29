@@ -1,41 +1,22 @@
 import { Link } from "react-router-dom";
 import home from "../Home/home.png";
 import "./projects.css";
-import girl from "../Home/b82e171512b51e24a23bb9d0cebfe8ca.jpg"
-
-
-
 
 export default function Projects() {
+  const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  const arrays = array.map(n => (n % 2 === 0 ? n : "--"));
+  const arrayss = array.reduce((sum, elem) => {
+	return sum + elem;
+}, 0);
+
+  
   return (
     <div className="projects">
       <h1>Projects</h1>
       <div className="projects-container">
-<div className="girl">
-  <img src={girl} alt=""></img>
-  <p>
-                 nec metus bibendum
-                egestas. Iaculis massa nisl malesuada lacinia integer nunc
-                posuere. Ut hendrerit semper vel class aptent taciti sociosqu.
-                Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-                ipsum dolor sit amet consectetur adipiscing elit. Quisque
-                faucibus ex sapien vitae pellentesque sem placerat. In id cursus
-                mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
-                urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
-                egestas. Iaculis massa nisl malesuada lacinia integer nunc
-                posuere. Ut hendrerit semper vel class aptent taciti sociosqu.
-                Ad litora torquent per conubia nostra inceptos himenaeos. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-                ipsum dolor sit amet consectetur adipiscing elit. Quisque
-                faucibus ex sapien vitae pellentesque sem placerat. In id cursus
-                mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
-                urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
-                egestas. Iaculis massa nisl malesuada lacinia integer nunc
-                posuere. Ut hendrerit semper vel class aptent taciti sociosqu.
-                Ad litora torquent per conubia nostra inceptos himenaeos.
-              </p>
-</div>
-
-       
+        <p>{arrays}</p>
+        <br></br>
+        <p>{arrayss}</p>
       </div>
 
       <div className="back">
