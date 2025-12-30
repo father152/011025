@@ -1,45 +1,34 @@
 .projects {
     width: 100%;
     display: flex;
-    margin: 0 auto;
     background-color: rgb(235, 240, 240);
     font-family: "Manrope", sans-serif;
     color: rgb(60, 70, 57);
-   
+    align-items: center;
+    flex-direction: column;
 }
+
 h1 {
     text-align: center;
-    margin: 0;
     padding: 20px 0;
     text-shadow: 10px 10px 7px black;
 }
 .projects-container {
     width: 95%;
-    
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
 }
-
-/* .girl img {
-    width: 45%;
-    position: absolute;
-    top: 20px;
-}
-.girl p {
-    position: absolute;
-    min-height: 100vh;
-    left: 30%;
+.projects-container p{
     font-family: Shadows Into Light;
-    font-size: 30px;
-    color: rgb(206, 116, 33);
-    font-weight: bold;
+    width: 85%;
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 20px auto;
+    text-align: justify;
 }
 .back img {
-   display: flex;
     width: 40px;
     padding: 0 0 20px 20px;
     cursor: pointer;
-    z-index: 1000;
-} */
+}
