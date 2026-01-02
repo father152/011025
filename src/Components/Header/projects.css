@@ -7,7 +7,6 @@
     align-items: center;
     flex-direction: column;
 }
-
 h1 {
     text-align: center;
     padding: 20px 0;
@@ -62,7 +61,7 @@ h1 {
     line-height: 1.2;
     margin: 20px auto;
     text-align: justify;
-    color: rgb(78, 67, 42);
+    color: rgb(10, 10, 10);
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 .projects-container-2 h2 {
@@ -71,4 +70,13 @@ h1 {
     padding: 20px 0;
     color: rgb(231, 217, 91);
     text-shadow: 2px 2px 4px rgb(146, 139, 71);
+}
+.projects-container-2 h3 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(231, 24, 24);
+    text-shadow: 5px 5px 10px rgb(223, 226, 17);
+    font-family: Shadows Into Light;
+    font-weight: 900;
+    margin: 0
 }

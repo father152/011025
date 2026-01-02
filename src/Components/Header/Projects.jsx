@@ -49,44 +49,43 @@ export default function Projects() {
         </p>
       </div>
       <div className="projects-container-2">
-<h1>Welcome to Projects Page</h1>
-<p>This is where future projects will be showcased     Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet
-          consectetur adipiscing elit. Quisque faucibus ex sapien vitae
+        <h1>Welcome to Projects Page</h1>
+        <p>
+          This is where future projects will be showcased Lorem ipsum dolor sit
+          amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
           pellentesque sem placerat. In id cursus mi pretium tellus duis
           convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus
           fringilla lacus nec metus bibendum egestas. Iaculis massa nisl
           malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
           aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos
-          himenaeos.</p>
-<h2>
-          Future Projects
-          
-          Coming Soon...
-        </h2>
-        <p>This is where future projects will be showcased     Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
+          himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          Quisque faucibus ex sapien vitae pellentesque sem placerat. In id
+          cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
+          urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
+          egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
           hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet
-          consectetur adipiscing elit. Quisque faucibus ex sapien vitae
+          per conubia nostra inceptos himenaeos.
+        </p>
+        <h2>Future Projects Coming Soon...</h2>
+        <p>
+          This is where future projects will be showcased Lorem ipsum dolor sit
+          amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
           pellentesque sem placerat. In id cursus mi pretium tellus duis
           convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus
           fringilla lacus nec metus bibendum egestas. Iaculis massa nisl
           malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
           aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos
-          himenaeos.</p>
+          himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          Quisque faucibus ex sapien vitae pellentesque sem placerat. In id
+          cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
+          urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
+          egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
+          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
+          per conubia nostra inceptos himenaeos.
+        </p>
+        <h3>ATTENTION !</h3>
       </div>
 
-
-      
       <div className="back">
         <Link to="/">
           <img src={home} alt=""></img>

@@ -1,15 +1,38 @@
 .fivefloor {
+    width: 100%;
+    height: 100%;
     background-color: rgb(91, 109, 67);
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.fivefloor-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+
 h1 {
     font-size: 80px;
     font-family: Shadows Into Light;
     color: rgb(119, 216, 140);
     padding: 0;
+}
+h3{
+    font-size: 80px;
+    font-family: Shadows Into Light;
+    color: rgb(42, 66, 47);
+    margin: 0;
+   text-shadow: 10px 10px 7px rgb(241, 207, 14);
+}
+.back img{
+    display: flex;
+    width: 40px;
+    padding: 0 0 20px 20px;
+    align-items: end;
+    
 }
